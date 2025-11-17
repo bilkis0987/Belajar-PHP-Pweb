@@ -3,7 +3,7 @@
 $host = "localhost";
 $username = "root";  // Sesuaikan dengan username database Anda
 $password = "";      // Sesuaikan dengan password database Anda
-$dbname = "buku_tamu";
+$dbname = "book";
 
 try {
     // Membuat koneksi menggunakan PDO

@@ -12,6 +12,8 @@
 - 📝 Form input sederhana untuk pengunjung
 - 💾 Penyimpanan data ke database MySQL
 - 📋 Tampilan daftar pesan terbaru
+- ✏️ Fitur edit pesan yang sudah ada
+- ❌ Fitur hapus pesan
 - 🔒 Keamanan input dasar (XSS protection)
 - 🎨 Desain responsif dan modern
 
@@ -90,10 +92,18 @@ project-buku-tamu-sederhana/
 2. (Opsional) Tambahkan **email**
 3. Klik **"Kirim Pesan"**
 4. Lihat pesan muncul di bagian bawah halaman
+5. Gunakan tombol **"Edit"** untuk memperbarui pesan
+6. Gunakan tombol **"Hapus"** untuk menghapus pesan
+
+## 🛠️ Operasi CRUD
+
+- **Create**: Menambahkan pesan baru melalui form
+- **Read**: Menampilkan semua pesan di daftar
+- **Update**: Memperbarui pesan yang sudah ada menggunakan tombol "Edit"
+- **Delete**: Menghapus pesan menggunakan tombol "Hapus"
 
 ## 🔧 Pengembangan Lanjutan
 
-- [ ] Fitur edit/hapus pesan
 - [ ] Sistem autentikasi admin
 - [ ] Pagination untuk pesan
 - [ ] Validasi input yang lebih ketat
